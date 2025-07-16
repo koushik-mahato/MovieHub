@@ -87,8 +87,8 @@ const Movies = () => {
 
   if (loading) {
     return (
-      <div className="h-64 flex items-center justify-center text-cyan-400 animate-pulse">
-        Loading movies…
+      <div className="flex justify-center items-center min-h-screen">
+        <img src="/Loader.gif" alt="Loading..." className="w-34 h-34" />
       </div>
     );
   }

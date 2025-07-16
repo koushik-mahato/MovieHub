@@ -41,8 +41,8 @@ const MovieDetails = () => {
 
   if (loading) {
     return (
-      <div className="text-center py-10 text-cyan-400 animate-pulse">
-        Loading movie details...
+      <div className="flex justify-center items-center min-h-screen">
+        <img src="/Loader.gif" alt="Loading..." className="w-34 h-34" />
       </div>
     );
   }
