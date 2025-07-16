@@ -21,6 +21,7 @@ function App() {
         <Suspense
           fallback={
             <div className="flex justify-center items-center min-h-screen">
+              
               <img src="/Loader.gif" alt="Loading..." className="w-34 h-34" />
             </div>
           }
